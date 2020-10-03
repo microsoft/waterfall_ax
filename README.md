@@ -11,6 +11,7 @@ from waterfall_ax import *
 
 # Cumulative values
 step_values = [80, 70, 90, 85, 60, 50]
+
 # Plot
 waterfall = WaterfallChart(step_values)
 wf_ax = waterfall.plot_waterfall(title='A Simple Example')
@@ -22,15 +23,20 @@ plt.show()
 ## Be Flexible 
 waterfall_ax makes it very flexible to create and edit the waterfall charts. Here are some examples.
 
-1. **Style Control**. You have control over the bar style, line style and labels. Please refer to [waterfall_ax.py](waterfall_ax.py) for details. In short, 
+1. **Style Control**. You have control over the bar style, line style and labels. Please refer to [waterfall_ax.py](waterfall_ax.py) for details. 
+    
+    In short, 
     * For the bar and line elements you can pass any kwargs that matplotlib accepts for these two styles
     * For labels, you can set step_names, metric_name, last_step_label, and bar_labels. 
+    
     Here is an example:
+    
     ```
     # Labels
-    step_names = ['Balance0', 'Spend_clothes', 'Salary', 'Spend_grocery', 'Spend_phone', 'Spend_parking']
     metric_name = 'Balance'
+    step_names = ['Balance0', 'Spend_clothes', 'Salary', 'Spend_grocery', 'Spend_phone', 'Spend_parking']
     last_step_label = 'End Balance'
+    
     # Styles
     bar_labels = [x for x in range(7)]
     bar_kwargs = {'edgecolor': 'black'}
@@ -63,7 +69,8 @@ waterfall_ax makes it very flexible to create and edit the waterfall charts. Her
     * Label text color for negative deltas
     * Label text color for the very first bar
     * Label text color for the last bar
-    As a result, the waterfall charts can work very well for a varierty of styles. An examples:
+    
+    As a result, the waterfall charts can work very well for a varierty of styles. An example:
 
     ```
     # Set style
@@ -87,7 +94,7 @@ waterfall_ax makes it very flexible to create and edit the waterfall charts. Her
     ![Custom2](pic/example2_dark.png)
 
 
-3. **Continue Editing**. The plot_waterfall() function returns an Axes object and can also take in an . So it’s very flexible to use the object outside the class for further editing. An example by following the previous one:
+3. **Continue Editing**. The plot_waterfall() function returns an Axes object and can also take in an . So it’s very flexible to use the object outside the class for further editing. An example by following the previous style:
     ```
     # Add grid and xlabel after the waterfall ax is created
     wf_ax = waterfall.plot_waterfall(title='Style dark_background', color_kwargs=color_kwargs)
