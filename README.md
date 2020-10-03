@@ -70,7 +70,7 @@ waterfall_ax makes it very flexible to create and edit the waterfall charts. Her
     * Label text color for the very first bar
     * Label text color for the last bar
     
-    As a result, the waterfall charts can work very well for a varierty of styles. An example:
+    As a result, the waterfall charts can work very well for a variety of styles. An example:
 
     ```
     # Set style
