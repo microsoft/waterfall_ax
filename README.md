@@ -1,7 +1,7 @@
 # Waterfall Chart in Python
 ---
 
-The waterfall_ax library creates flexible waterfall charts based on matplotlib. 
+The `waterfall_ax` library creates flexible waterfall charts based on matplotlib. 
 
 ## Installation
 
@@ -31,7 +31,7 @@ plt.show()
 
 
 ## Be Flexible 
-waterfall_ax makes it very flexible to create and edit the waterfall charts. Here are some examples.
+`waterfall_ax` makes it very flexible to create and edit the waterfall charts. Here are some examples.
 
 1. **Style Control**. You have control over the bar style, line style and labels. Please refer to [waterfall_ax.py](waterfall_ax/waterfall_ax.py) for details. 
     
