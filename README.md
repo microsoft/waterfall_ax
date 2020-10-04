@@ -3,9 +3,18 @@
 
 The waterfall_ax library creates flexible waterfall charts based on matplotlib. 
 
+## Installation
+
+```
+pip install waterfall-ax
+```
+
 ## Get Started
-It is very easy to create a waterfall chart with waterfall_ax. Simply give the cumulative values you'd like to plot. The intermediate deltas will be calculated in the backend.
+
+To create a waterfall chart, simply provide the cumulative values you'd like to plot. The intermediate deltas will be calculated in the backend.
+
 Sample code:
+
 ```
 from waterfall_ax import WaterfallChart
 import matplotlib.pyplot as plt
