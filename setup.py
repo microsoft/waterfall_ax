@@ -4,8 +4,8 @@ with open("waterfall_ax/README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="waterfall_ax-test3", 
-    version="0.0.1",
+    name="waterfall_ax", 
+    version="1.0.0",
     author="Yaran Fan",
     author_email="yarfan.fan@gmail.com",
     description="Create waterfall charts.",

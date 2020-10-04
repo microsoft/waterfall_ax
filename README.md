@@ -24,7 +24,7 @@ plt.show()
 ## Be Flexible 
 waterfall_ax makes it very flexible to create and edit the waterfall charts. Here are some examples.
 
-1. **Style Control**. You have control over the bar style, line style and labels. Please refer to [waterfall_ax.py](waterfall_ax.py) for details. 
+1. **Style Control**. You have control over the bar style, line style and labels. Please refer to [waterfall_ax.py](waterfall_ax/waterfall_ax.py) for details. 
     
     In short, 
     * For the bar and line elements you can pass any kwargs that matplotlib accepts for these two styles

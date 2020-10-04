@@ -6,8 +6,9 @@ The waterfall_ax library creates flexible waterfall charts based on matplotlib.
 It provides flexible controls over your plot. For details please refer to the [waterfall_ax repo](https://github.com/microsoft/waterfall_ax).
 
 ## A Simple Example
-It is very easy to create a waterfall chart with waterfall_ax. Simply give the cumulative values you'd like to plot. The intermediate deltas will be calculated in the backend.
+
 Sample code:
+
 ```
 from waterfall_ax import WaterfallChart
 
