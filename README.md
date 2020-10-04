@@ -7,7 +7,8 @@ The waterfall_ax library creates flexible waterfall charts based on matplotlib.
 It is very easy to create a waterfall chart with waterfall_ax. Simply give the cumulative values you'd like to plot. The intermediate deltas will be calculated in the backend.
 Sample code:
 ```
-from waterfall_ax import *
+from waterfall_ax import WaterfallChart
+import matplotlib.pyplot as plt
 
 # Cumulative values
 step_values = [80, 70, 90, 85, 60, 50]
